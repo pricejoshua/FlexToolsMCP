@@ -69,9 +69,8 @@ User Request -> AI Assistant -> MCP Server -> Indexed Documentation
 These queries have been successfully tested:
 
 ```
-"Delete any sense with the letter 'q' in the gloss."
+"Remove "el " from the beginning of any Spanish gloss."
 "Add an environment named 'pre-y' with the context '/_y'."
-"List all texts that contain the word 'win' in the baseline."
 "Give me a report of each part of speech with a count of lexemes under it. Skip POS's with 0 entries."
 "Delete the entry with a lexeme of ɛʃːɛr"
 "List entries with "ː" in the headword."
