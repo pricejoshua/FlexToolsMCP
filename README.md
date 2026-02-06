@@ -72,6 +72,11 @@ These queries have been successfully tested:
 "Delete any sense with the letter 'q' in the gloss."
 "Add an environment named 'pre-y' with the context '/_y'."
 "List all texts that contain the word 'win' in the baseline."
+"Give me a report of each part of speech with a count of lexemes under it. Skip POS's with 0 entries."
+"Delete the entry with a lexeme of ɛʃːɛr"
+"List entries with "ː" in the headword."
+"List the first two texts with the word "not" in the baseline and show the context."
+
 ```
 
 ## Background
