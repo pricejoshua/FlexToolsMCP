@@ -76,7 +76,7 @@ These queries have been successfully tested:
 "Delete the entry with a lexeme of ɛʃːɛr"
 "List entries with "ː" in the headword."
 "List the first two texts with the word "not" in the baseline and show the context."
-
+"Show me the full morpheme analysis of the first word in the the first text."
 ```
 
 ## Background
