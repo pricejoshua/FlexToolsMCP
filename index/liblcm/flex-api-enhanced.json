@@ -2008,7 +2008,6 @@
               "GetLeftContextPattern",
               "GetName",
               "GetRightContextPattern",
-              "GetStringRepresentation",
               "GetSyncableProperties",
               "SetName",
               "SetStringRepresentation"
@@ -2824,7 +2823,6 @@
               "Delete",
               "Find",
               "GetAll",
-              "GetText",
               "SetText"
             ]
           },
@@ -15839,7 +15837,6 @@
             "Delete",
             "Find",
             "GetAll",
-            "GetText",
             "SetText"
           ]
         }
@@ -29264,7 +29261,6 @@
             "Delete",
             "Find",
             "GetAll",
-            "GetText",
             "SetText"
           ]
         }
@@ -30721,7 +30717,6 @@
               "Delete",
               "Find",
               "GetAll",
-              "GetText",
               "SetText"
             ]
           }
@@ -32691,7 +32686,6 @@
               "Delete",
               "Find",
               "GetAll",
-              "GetText",
               "SetText"
             ]
           }
@@ -34360,7 +34354,6 @@
               "GetLeftContextPattern",
               "GetName",
               "GetRightContextPattern",
-              "GetStringRepresentation",
               "GetSyncableProperties",
               "SetName",
               "SetStringRepresentation"
@@ -54360,7 +54353,6 @@
               "Delete",
               "Find",
               "GetAll",
-              "GetText",
               "SetText"
             ]
           },
@@ -56512,7 +56504,6 @@
             "GetLeftContextPattern",
             "GetName",
             "GetRightContextPattern",
-            "GetStringRepresentation",
             "GetSyncableProperties",
             "SetName",
             "SetStringRepresentation"
@@ -130577,6 +130568,6 @@
     "RA": "Reference Atomic - single referenced object",
     "writing_system": "Language and script identifier in FieldWorks"
   },
-  "_python_wrappers_added": "2026-02-06T05:21:53.935283+00:00",
-  "_relationships_added": "2026-02-06T05:21:54.374470+00:00"
+  "_python_wrappers_added": "2026-02-07T19:03:59.091053+00:00",
+  "_relationships_added": "2026-02-07T19:03:59.625035+00:00"
 }

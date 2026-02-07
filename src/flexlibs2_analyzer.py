@@ -874,7 +874,7 @@ def analyze_python_file(file_path: Path, base_path: Path) -> Optional[Dict[str, 
 
 def analyze_flexlibs2(flexlibs2_path: str) -> Dict[str, Any]:
     """Analyze the entire FlexLibs 2.0 codebase."""
-    base_path = Path(flexlibs2_path) / "flexlibs" / "code"
+    base_path = Path(flexlibs2_path) / "flexlibs2" / "code"
 
     if not base_path.exists():
         raise FileNotFoundError(f"FlexLibs 2.0 code directory not found: {base_path}")

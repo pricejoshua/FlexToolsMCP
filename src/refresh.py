@@ -32,6 +32,7 @@ def load_env():
                 if line and not line.startswith('#') and '=' in line:
                     key, value = line.split('=', 1)
                     os.environ.setdefault(key.strip(), value.strip())
+                    print(f"       {key.strip()} = {value.strip()}")
     else:
         print("[WARN] No .env file found. Using defaults. Copy .env.example to .env to configure paths.")
 
@@ -81,6 +82,8 @@ def refresh_flexlibs_stable(flexlibs_path: str = None) -> bool:
     """Refresh FlexLibs stable index."""
     if flexlibs_path is None:
         flexlibs_path = os.environ.get("FLEXLIBS_PATH", "D:/Github/flexlibs")
+        
+    print("==============", flexlibs_path)
 
     output_path = get_project_root() / "index" / "flexlibs" / "flexlibs_api.json"
 
@@ -98,6 +101,8 @@ def refresh_flexlibs2(flexlibs2_path: str = None) -> bool:
     """Refresh FlexLibs 2.0 index."""
     if flexlibs2_path is None:
         flexlibs2_path = os.environ.get("FLEXLIBS2_PATH", "D:/Github/flexlibs2")
+
+    print("=================" , flexlibs2_path)
 
     output_path = get_project_root() / "index" / "flexlibs" / "flexlibs2_api.json"
 
@@ -297,13 +302,13 @@ def main():
     )
     parser.add_argument(
         "--flexlibs2-path",
-        default="D:/Github/flexlibs2",
-        help="Path to FlexLibs 2.0 repository"
+        default=None,
+        help="Path to FlexLibs 2.0 repository (default: from .env or D:/Github/flexlibs2)"
     )
     parser.add_argument(
         "--flexlibs-path",
-        default="D:/Github/flexlibs",
-        help="Path to FlexLibs stable repository"
+        default=None,
+        help="Path to FlexLibs stable repository (default: from .env or D:/Github/flexlibs)"
     )
     parser.add_argument(
         "--dll-path",
